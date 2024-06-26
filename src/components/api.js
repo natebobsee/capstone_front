@@ -1,6 +1,6 @@
 // const BASEURL= 'https://fsa-book-buddy-b6e748d1380d.herokuapp.com'
 
-const BASEURL =  'http://localhost:8080'
+const BASEURL =  'https://capstone-front-14km.onrender.com'
 export async function loginuser(userData) {
     try {
         const response = await fetch(`${BASEURL}/api/users/login`,{

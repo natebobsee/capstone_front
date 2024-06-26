@@ -5,7 +5,7 @@ export default function Books() {
   useEffect(()=>{
       async function fetchBooks(){
         try {
-          const response = await fetch('http://localhost:8080/api/articles')
+          const response = await fetch('https://capstone-front-14km.onrender.com/api/articles')
       const result = await response.json();
       setBooksArray(result)
         } catch (error) {
